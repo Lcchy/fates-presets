@@ -1,0 +1,412 @@
+{
+	"a1":	{
+		"moduleType":	"sequence/genny",
+		"params":	{
+			"genny_length":	500,
+			"genny_rate1":	10,
+			"genny_rate2":	10
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"a2":	{
+		"moduleType":	"synth/sampler",
+		"params":	{
+			"s_trans":	0,
+			"s_kit":	4,
+			"s_duration":	100,
+			"pb_range":	2,
+			"s_envelope":	30,
+			"s_speed":	0,
+			"s_slot1":	7
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"a3":	{
+		"moduleType":	"utility/empty",
+		"params":	{
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"b1":	{
+		"moduleType":	"sequence/euclid",
+		"params":	{
+			"e_vel_4":	100,
+			"e_len_4":	4,
+			"e_note_4":	63,
+			"e_off_4":	0,
+			"e_nlen_3":	100,
+			"e_vel_3":	100,
+			"e_note_1":	60,
+			"e_nlen_1":	1921.875000,
+			"e_notes_1":	1,
+			"e_notes_2":	0,
+			"e_len_3":	16,
+			"e_vel_1":	100,
+			"e_note_3":	62,
+			"e_notes_4":	0,
+			"e_len_1":	16,
+			"e_nlen_2":	100,
+			"e_off_1":	0,
+			"e_off_3":	0,
+			"e_nlen_4":	100,
+			"e_off_2":	0,
+			"e_len_2":	16,
+			"e_note_2":	61,
+			"e_vel_2":	100,
+			"e_notes_3":	0
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"b2":	{
+		"moduleType":	"synth/norisampler",
+		"params":	{
+			"pb_range":	2,
+			"n_mod":	0,
+			"n_speed":	100,
+			"s_kit":	4,
+			"s_slot1":	7,
+			"n_start":	0,
+			"n_dur":	100
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"b3":	{
+		"moduleType":	"synth/norisampler",
+		"params":	{
+			"pb_range":	2,
+			"n_mod":	37.060822,
+			"n_speed":	20.312500,
+			"s_kit":	4,
+			"s_slot1":	7,
+			"n_start":	0,
+			"n_dur":	100
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+				"10":	["n_mod"]
+			}
+		}
+	},
+	"b4":	{
+		"moduleType":	"fx/chorus",
+		"params":	{
+			"thru_gain":	0,
+			"chor_mod":	41.406250,
+			"chor_dw":	16.406250,
+			"chor_freq":	1
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"c1":	{
+		"moduleType":	"sequence/polybeats",
+		"params":	{
+			"pb_swing":	0,
+			"pb_note_vel":	100,
+			"pb_div":	8,
+			"pb_note_len":	250
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"c2":	{
+		"moduleType":	"synth/sampler",
+		"params":	{
+			"s_trans":	0,
+			"s_kit":	6,
+			"s_duration":	100,
+			"pb_range":	2,
+			"s_envelope":	30,
+			"s_speed":	0,
+			"s_slot1":	2
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"c3":	{
+		"moduleType":	"utility/empty",
+		"params":	{
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"m1":	{
+		"moduleType":	"modulate/lfo",
+		"params":	{
+			"l_bus":	10,
+			"l_offset":	36.718750,
+			"l_amt":	12.500000,
+			"l_wave":	1,
+			"l_rate":	4414.062500
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"m2":	{
+		"moduleType":	"utility/empty",
+		"params":	{
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"m3":	{
+		"moduleType":	"utility/empty",
+		"params":	{
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"p1":	{
+		"moduleType":	"utility/empty",
+		"params":	{
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"p2":	{
+		"moduleType":	"fx/panlfo",
+		"params":	{
+			"pan_rate":	5,
+			"thru_gain":	0,
+			"pan_dw":	22.656250,
+			"pan_depth":	49.218750
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"s1":	{
+		"moduleType":	"router/parallel",
+		"params":	{
+			"r-midi-ctrlgate":	0,
+			"r-midi-notegate":	0,
+			"r-midi-npreset-cc":	101,
+			"r-midi-ppreset-cc":	100,
+			"r-midi-pgmgate":	1,
+			"r-midi-expcc":	4,
+			"r-midi-fscc":	64,
+			"r-midi-module-cc":	0,
+			"r-bypass-c2":	0,
+			"r-notethru-c2":	0,
+			"r-chin-r-pan-3":	0.500000,
+			"r-thru-gain-b4":	100,
+			"r-thru-gain-b1":	100,
+			"r-chout-r-pan-3":	1,
+			"r-bypass-b3":	0,
+			"r-bypass-p1":	0,
+			"r-main-dest":	0,
+			"r-gain-c2":	100,
+			"r-bypass-b4":	0,
+			"r-notethru-b3":	0,
+			"r-bypass-b2":	0,
+			"r-notethru-b2":	1,
+			"r-gain-p1":	100,
+			"r-chin-midich-1":	1,
+			"r-chout-midich-1":	0,
+			"r-chin-r-pan-2":	0.500000,
+			"r-gain-b2":	100,
+			"r-thru-gain-b2":	100,
+			"r-chout-gain-1":	0,
+			"r-gain-a1":	100,
+			"r-gain-b3":	98.437500,
+			"r-chin-l-gain-1":	102.362206,
+			"r-thru-gain-a1":	100,
+			"r-notethru-c3":	0,
+			"r-bypass-p2":	0,
+			"r-bypass-a1":	0,
+			"r-thru-gain-b3":	100,
+			"r-notethru-a2":	0,
+			"r-midi-auxcc":	108,
+			"r-thru-gain-a2":	100,
+			"r-notethru-a1":	0,
+			"r-bypass-a3":	0,
+			"r-chout-midich-3":	0,
+			"r-gain-a2":	100,
+			"r-gain-a3":	100,
+			"r-gain-b4":	100,
+			"r-thru-gain-c2":	100,
+			"r-chin-l-pan-1":	0.500000,
+			"r-chout-r-pan-2":	1,
+			"r-chout-l-pan-2":	0,
+			"r-bypass-b1":	0,
+			"r-notethru-b4":	0,
+			"r-bypass-a2":	0,
+			"r-notethru-a3":	0,
+			"r-midi-save-preset-cc":	102,
+			"r-gain-b1":	100,
+			"r-gain-c1":	100,
+			"r-chin-midigate-1":	1,
+			"r-thru-gain-c3":	100,
+			"r-bypass-c1":	0,
+			"r-chin-midigate-3":	1,
+			"r-bypass-c3":	0,
+			"r-chin-r-gain-1":	102.362206,
+			"r-thru-gain-p1":	100,
+			"r-notethru-c1":	0,
+			"r-gain-c3":	98.437500,
+			"r-thru-gain-p2":	100.012299,
+			"r-gain-p2":	100.787399,
+			"r-chin-r-pan-1":	0.500000,
+			"r-chout-l-pan-1":	0,
+			"r-chin-r-gain-2":	121.259842,
+			"r-chout-r-pan-1":	1,
+			"r-chin-l-pan-2":	0.500000,
+			"r-thru-gain-a3":	100,
+			"r-midi-ch":	0,
+			"r-chin-midigate-2":	1,
+			"r-chin-midich-2":	2,
+			"r-chout-gain-2":	160.629913,
+			"r-chout-midich-2":	0,
+			"r-thru-gain-c1":	100,
+			"r-chin-l-gain-2":	121.259842,
+			"r-chin-midich-3":	3,
+			"r-chin-l-gain-3":	0,
+			"r-notethru-b1":	0,
+			"r-chin-r-gain-3":	0,
+			"r-chout-gain-3":	171.653549,
+			"r-chin-l-pan-3":	0.500000,
+			"r-chout-l-pan-3":	0
+		},
+		"midi-mapping":	{
+			"cc":	{
+				"1176":	["r-chout-r-pan-1"],
+				"1435":	["r-bypass-c3"],
+				"1432":	["r-chout-r-pan-3"],
+				"1173":	["r-chin-r-gain-1", "r-chin-l-gain-1"],
+				"149":	["r-chout-gain-1"],
+				"1560":	["r-gain-p2"],
+				"1301":	["r-chin-l-gain-2", "r-chin-r-gain-2"],
+				"1557":	["r-chout-gain-1"],
+				"1302":	["r-chout-gain-2"],
+				"1308":	["r-bypass-b4"],
+				"1429":	["r-chin-l-gain-3", "r-chin-r-gain-3"],
+				"1430":	["r-chout-gain-3"],
+				"1307":	["r-bypass-b3"],
+				"1559":	["r-chout-gain-3"],
+				"1304":	["r-chout-r-pan-2"],
+				"1431":	["r-chout-l-pan-3"],
+				"1306":	["r-bypass-b2"],
+				"1305":	["r-bypass-b1"],
+				"1303":	["r-chout-l-pan-2"],
+				"1558":	["r-chout-gain-2"],
+				"1175":	["r-chout-l-pan-1"],
+				"1434":	["r-bypass-c2"],
+				"1174":	["r-chout-gain-1"],
+				"1433":	["r-bypass-c1"],
+				"1178":	["r-bypass-a2"]
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	},
+	"s2":	{
+		"moduleType":	"utility/clock",
+		"params":	{
+			"c_midiout":	0,
+			"c_bpm":	120,
+			"c_midiin":	1
+		},
+		"midi-mapping":	{
+			"cc":	{
+			}
+		},
+		"mod-mapping":	{
+			"bus":	{
+			}
+		}
+	}
+}
