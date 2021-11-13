@@ -288,13 +288,13 @@
 		},
 		"midi-mapping":	{
 			"cc":	{
-				"129":	["r-chin-l-gain-1", "r-chin-r-gain-1"],
-				"131":	["r-chin-l-gain-3", "r-chin-r-gain-3"],
-				"130":	["r-chin-l-gain-2", "r-chin-r-gain-2"],
-				"133":	["r-chout-gain-1"],
-				"134":	["r-chout-gain-2"],
-				"135":	["r-chout-gain-3"],
-				"128":	["r-thru-gain-p2", "r-gain-p2"]
+				"1280":	["r-thru-gain-p2", "r-gain-p2"],
+				"1281":	["r-chin-l-gain-1", "r-chin-r-gain-1"],
+				"1282":	["r-chin-l-gain-2", "r-chin-r-gain-2"],
+				"1283":	["r-chin-l-gain-3", "r-chin-r-gain-3"],
+				"1285":	["r-chout-gain-1"],
+				"1286":	["r-chout-gain-2"],
+				"1287":	["r-chout-gain-3"]
 			}
 		},
 		"mod-mapping":	{
@@ -305,13 +305,13 @@
 	"s2":	{
 		"moduleType":	"sequence_bpm/clock",
 		"params":	{
-			"c_midiout":	0,
+			"c_midiout":	1,
 			"c_bpm":	121,
 			"c_midiin":	1
 		},
 		"midi-mapping":	{
 			"cc":	{
-				"132":	["c_bpm"]
+				"1284":	["c_bpm"]
 			}
 		},
 		"mod-mapping":	{
