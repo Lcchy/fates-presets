@@ -13,25 +13,16 @@
 		}
 	},
 	"a2":	{
-		"moduleType":	"fx/clds",
+		"moduleType":	"synth/aapart/slatra",
 		"params":	{
-			"thru_gain":	0,
-			"clds_pitch":	-5,
-			"clds_size":	30.050003,
-			"clds_trig":	0,
-			"clds_freeze":	1,
-			"clds_density":	11.474999,
-			"clds_spread":	83.350014,
-			"clds_texture":	71.499977,
-			"clds_mix":	100,
-			"clds_feedback":	59.749947,
-			"clds_position":	49.075031,
-			"clds_reverb":	52.199997,
-			"clds_bypass":	0,
-			"clds_silence":	0,
-			"clds_lofi":	0,
-			"clds_mode":	1,
-			"clds_mono":	0
+			"slatra_moddecay":	81.250000,
+			"slatra_velocity":	10.156250,
+			"slatra_ampdecay":	85.937500,
+			"slatra_vibrato":	20.312500,
+			"slatra_transpose":	-4,
+			"slatra_volume":	81.562500,
+			"slatra_moddepth":	2.343750,
+			"slatra_modscale":	98.632812
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -69,25 +60,8 @@
 		}
 	},
 	"b2":	{
-		"moduleType":	"synth/rngs",
+		"moduleType":	"utility/empty",
 		"params":	{
-			"y_depth":	25,
-			"rngs_struct":	54.825020,
-			"rngs_poly":	0,
-			"rngs_fm":	0,
-			"rngs_pos":	50,
-			"rngs_bright":	50,
-			"pb_range":	2,
-			"rngs_tune":	-2,
-			"rngs_easter":	0,
-			"rngs_model":	0,
-			"rngs_chord":	0,
-			"rngs_i_exciter":	1,
-			"rngs_i_strum":	0,
-			"rngs_damp":	50,
-			"rngs_finetune":	0,
-			"rngs_i_note":	0,
-			"rngs_bypass":	0
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -125,11 +99,8 @@
 		}
 	},
 	"c1":	{
-		"moduleType":	"fx/aapart/midi_retrig",
+		"moduleType":	"utility/empty",
 		"params":	{
-			"note_length":	2.625000,
-			"exp_1":	11.812500,
-			"exp_2":	355.875000
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -141,25 +112,8 @@
 		}
 	},
 	"c2":	{
-		"moduleType":	"synth/rngs",
+		"moduleType":	"utility/empty",
 		"params":	{
-			"y_depth":	25,
-			"rngs_struct":	66.912552,
-			"rngs_poly":	3,
-			"rngs_fm":	-22,
-			"rngs_pos":	63.012569,
-			"rngs_bright":	49.112537,
-			"pb_range":	2,
-			"rngs_tune":	-18,
-			"rngs_easter":	0,
-			"rngs_model":	2,
-			"rngs_chord":	10,
-			"rngs_i_exciter":	1,
-			"rngs_i_strum":	0,
-			"rngs_damp":	72.287926,
-			"rngs_finetune":	0,
-			"rngs_i_note":	0,
-			"rngs_bypass":	0
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -167,18 +121,12 @@
 		},
 		"mod-mapping":	{
 			"bus":	{
-				"10":	["rngs_damp"]
 			}
 		}
 	},
 	"c3":	{
-		"moduleType":	"fx/r_reverb",
+		"moduleType":	"utility/empty",
 		"params":	{
-			"r_cutoff":	7.649995,
-			"thru_gain":	0,
-			"r_diff":	4.287484,
-			"r_amount":	90.106232,
-			"r_time":	14.000054
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -190,16 +138,8 @@
 		}
 	},
 	"m1":	{
-		"moduleType":	"modulate/aapart/envelope",
+		"moduleType":	"utility/empty",
 		"params":	{
-			"e_depth":	0,
-			"e_decay":	309.375000,
-			"e_bus":	8,
-			"e_attack":	215.250000,
-			"e_ch_in":	3,
-			"e_sustain":	493.625000,
-			"e_release":	109.437500,
-			"e_amp":	46.450203
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -294,27 +234,27 @@
 			"r-thru-gain-a1":	100,
 			"r-notethru-c3":	0,
 			"r-bypass-p2":	0,
-			"r-chin-l-gain-1":	100.787399,
+			"r-chin-l-gain-1":	0,
 			"r-midi-auxcc":	69,
 			"r-thru-gain-a2":	100,
 			"r-notethru-a1":	0,
 			"dig-trk7-ch2":	0,
 			"r-gain-b2":	100,
-			"dig-main":	100.000015,
+			"dig-main":	100,
 			"r-notethru-b2":	0,
 			"r-gain-p1":	100,
 			"r-chin-midich-1":	1,
 			"r-chout-midich-1":	0,
 			"r-chin-r-pan-2":	1,
 			"dig-trk8-ch3":	0,
-			"r-gain-p2":	121.259842,
+			"r-gain-p2":	100,
 			"dig-trk6-ch1":	0,
 			"r-midi-save-preset-cc":	102,
 			"r-gain-b1":	100,
 			"r-gain-c1":	100,
 			"r-chin-midigate-1":	1,
 			"r-thru-gain-b2":	100,
-			"r-chout-gain-1":	0,
+			"r-chout-gain-1":	100,
 			"r-bypass-a1":	0,
 			"r-thru-gain-b3":	100,
 			"r-notethru-a2":	0,
@@ -322,7 +262,7 @@
 			"r-gain-a3":	100,
 			"r-gain-b4":	100,
 			"r-thru-gain-c2":	100,
-			"r-chin-l-pan-1":	0.500751,
+			"r-chin-l-pan-1":	0,
 			"r-chout-l-pan-2":	0,
 			"r-chout-r-pan-2":	1,
 			"r-notethru-b4":	0,
@@ -335,11 +275,11 @@
 			"r-bypass-c1":	0,
 			"r-chin-midigate-3":	1,
 			"r-bypass-c3":	0,
-			"r-chin-r-gain-1":	100.787399,
+			"r-chin-r-gain-1":	0,
 			"r-thru-gain-p1":	100,
 			"r-notethru-c1":	0,
 			"r-gain-c3":	100,
-			"r-thru-gain-p2":	121.259842,
+			"r-thru-gain-p2":	100,
 			"r-chin-r-pan-1":	1,
 			"r-chout-l-pan-1":	0,
 			"r-chin-r-gain-2":	0,
@@ -347,7 +287,7 @@
 			"r-chin-l-pan-2":	0,
 			"r-chin-midigate-2":	1,
 			"r-chin-midich-2":	2,
-			"r-chout-gain-2":	0,
+			"r-chout-gain-2":	100,
 			"r-chout-midich-2":	0,
 			"r-thru-gain-c1":	100,
 			"r-chin-l-gain-2":	0,
@@ -355,18 +295,18 @@
 			"r-chin-l-gain-3":	0,
 			"r-notethru-b1":	0,
 			"r-chin-r-gain-3":	0,
-			"r-chout-gain-3":	23.622047,
+			"r-chout-gain-3":	100,
 			"r-chin-l-pan-3":	0
 		},
 		"midi-mapping":	{
 			"cc":	{
-				"1285":	["r-chout-gain-1"],
-				"1281":	["r-chin-l-gain-1", "r-chin-r-gain-1"],
-				"1286":	["r-chout-gain-2"],
-				"1287":	["r-chout-gain-3"],
 				"1280":	["r-thru-gain-p2", "r-gain-p2"],
+				"1281":	["r-chin-l-gain-1", "r-chin-r-gain-1"],
 				"1282":	["r-chin-l-gain-2", "r-chin-r-gain-2"],
-				"1283":	["r-chin-l-gain-3", "r-chin-r-gain-3"]
+				"1283":	["r-chin-l-gain-3", "r-chin-r-gain-3"],
+				"1285":	["r-chout-gain-1"],
+				"1286":	["r-chout-gain-2"],
+				"1287":	["r-chout-gain-3"]
 			}
 		},
 		"mod-mapping":	{
