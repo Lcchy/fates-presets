@@ -2,7 +2,7 @@
 	"a1":	{
 		"moduleType":	"fx/aapart/midi_retrig",
 		"params":	{
-			"note_length":	3.000000,
+			"note_length":	3,
 			"exp_1":	75.250000,
 			"exp_2":	3000
 		},
@@ -32,7 +32,7 @@
 			"rngs_i_exciter":	1,
 			"rngs_i_strum":	0,
 			"rngs_damp":	36.627934,
-			"rngs_finetune":	49.082031,
+			"rngs_finetune":	-95.888786,
 			"rngs_i_note":	0,
 			"rngs_bypass":	0
 		},
@@ -42,8 +42,8 @@
 		},
 		"mod-mapping":	{
 			"bus":	{
-				"11":	["rngs_damp", "rngs_finetune"],
-				"10":	["rngs_finetune"]
+				"10":	["rngs_finetune"],
+				"11":	["rngs_damp", "rngs_finetune"]
 			}
 		}
 	},
@@ -96,18 +96,18 @@
 			"l_blow_timbre":	100,
 			"l_bow_timbre":	100,
 			"l_tune":	0,
-			"l_geometry":	55.468750,
+			"l_geometry":	89.112579,
 			"l_contour":	0,
-			"l_damping":	39.062500,
+			"l_damping":	97.550064,
 			"l_finetune":	0,
 			"l_moddepth":	77.343750,
 			"l_blow_flow":	0,
-			"l_space":	3.125000,
+			"l_space":	15.749985,
 			"l_strike_level":	100,
 			"l_position":	36.718750,
-			"l_strike_timbre":	24.218750,
-			"l_brightness":	76.562500,
-			"l_strike_mallet":	74.218750
+			"l_strike_timbre":	2.575002,
+			"l_brightness":	14.725004,
+			"l_strike_mallet":	93.662483
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -354,13 +354,13 @@
 		},
 		"midi-mapping":	{
 			"cc":	{
-				"1285":	["r-chout-gain-1"],
+				"1283":	["r-chin-l-gain-3", "r-chin-r-gain-3"],
 				"1281":	["r-chin-l-gain-1", "r-chin-r-gain-1"],
+				"1285":	["r-chout-gain-1"],
 				"1286":	["r-chout-gain-2"],
 				"1287":	["r-chout-gain-3"],
 				"1280":	["r-thru-gain-p2", "r-gain-p2"],
-				"1282":	["r-chin-l-gain-2", "r-chin-r-gain-2"],
-				"1283":	["r-chin-l-gain-3", "r-chin-r-gain-3"]
+				"1282":	["r-chin-l-gain-2", "r-chin-r-gain-2"]
 			}
 		},
 		"mod-mapping":	{
