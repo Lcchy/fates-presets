@@ -345,13 +345,13 @@
 		},
 		"midi-mapping":	{
 			"cc":	{
-				"1287":	["r-chout-gain-3"],
+				"1286":	["r-chout-gain-2"],
 				"1281":	["r-chin-l-gain-1", "r-chin-r-gain-1"],
+				"1287":	["r-chout-gain-3"],
 				"1280":	["r-thru-gain-p2", "r-gain-p2"],
 				"1282":	["r-chin-l-gain-2", "r-chin-r-gain-2"],
 				"1283":	["r-chin-l-gain-3", "r-chin-r-gain-3"],
-				"1285":	["r-chout-gain-1"],
-				"1286":	["r-chout-gain-2"]
+				"1285":	["r-chout-gain-1"]
 			}
 		},
 		"mod-mapping":	{
